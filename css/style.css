@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Navigation CSS */
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    padding: 33px;
+}    
+#navBar p {
+    font-size: 20px;
+}
+#navigation {
+    display: flex;
+    width: 70%;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+/* Value Proposition */
+
+#mainLogo {
+    background-image: url("Path_3.png"), url("logo.png");
+    background-position: left bottom, left top;
+}
