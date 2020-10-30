@@ -6,7 +6,7 @@ body {
 
 #navBar {
     list-style-type: none;
-    margin: 0px 116px 0px 36px;
+    margin: 0px 116px 52px 36px;
     padding: 0px;
     overflow: hidden;
 }
@@ -21,5 +21,58 @@ li {
 }
 
 li:hover {
-    color: #be8b1d;
+    color: #585656;
+}
+
+/* Hero Section */
+
+#hero {
+    display: grid;
+    grid-template-rows: 858px;
+    grid-template-columns: 1061px;
+    grid-template-areas: 
+    "heroLogo valueProp";
+}
+
+#heroLogo {
+    background-color: #EDE7E2;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%)
+}
+
+#valueProp {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#valueProp h1{
+    font-size: 40px;
+}
+#line1 {
+    color: #585656;
+    padding-left: 60px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+}
+
+.button1 {
+    background-color: #191A1E;
+    margin-left: 60px;
+    margin-top: 30px;
 }
