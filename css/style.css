@@ -4,14 +4,14 @@ body {
 
 /* Navigation CSS */
 
-#navBar {
+.navBar {
     list-style-type: none;
     margin: 0px 116px 52px 36px;
     padding: 0px;
     overflow: hidden;
 }
 
-li {
+.navBar li {
     float: right;
     display: block;
     color: #191A1E;
@@ -26,7 +26,7 @@ li:hover {
 
 /* Hero Section */
 
-#hero {
+.heroContainer {
     display: grid;
     grid-template-rows: 858px;
     grid-template-columns: 1061px;
@@ -49,7 +49,7 @@ li:hover {
     justify-content: center;
 }
 
-#valueProp h1{
+h1{
     font-size: 40px;
 }
 #line1 {
@@ -76,3 +76,23 @@ li:hover {
     margin-left: 60px;
     margin-top: 30px;
 }
+
+#hello h1 {
+    font-size: 60px;
+    color: #585656;
+    padding-left: 597px;
+}
+
+.aboutContainer {
+    display: grid;
+    grid-template-rows: 545px;
+    grid-template-columns: 844px;
+    grid-template-areas: 
+    "hello blurb";
+}
+
+#line3, #line4 {
+    padding-left: 155px;
+}
+  
+    
