@@ -81,6 +81,12 @@ h1{
     font-size: 60px;
     color: #585656;
     padding-left: 597px;
+    padding-top: 201px;
+}
+
+#blurb {
+    padding-top: 201px;
+    background-image: url("../images/Path_4.png");
 }
 
 .aboutContainer {
@@ -95,4 +101,6 @@ h1{
     padding-left: 155px;
 }
   
-    
+.jumbotron {
+    position: absolute;
+}
